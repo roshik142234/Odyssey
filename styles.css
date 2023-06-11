@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background image or color */
+  body {
+    background: url("pxfuel.jpg") center/cover no-repeat; /* Replace "background.jpg" with your own image or use a background color */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    color: white;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ffdd00; /* Yellow text color on hover */
+  }
+  
+  /* Hero section styles */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 5px 0;
+    }
+  }
+  
